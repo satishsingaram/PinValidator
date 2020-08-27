@@ -1,13 +1,13 @@
-package com.disys.dtna.PinValidationService;
+package com.disys.dtna.ErrorLogger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PinValidationServiceApplication {
+public class ErrorLoggerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PinValidationServiceApplication.class, args);
+		SpringApplication.run(ErrorLoggerApplication.class, args);
 	}
 
 }
